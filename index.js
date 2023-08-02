@@ -25,7 +25,7 @@ bot.command('firstaids', async (ctx) => {
         [
             [Markup.button.callback('1. ЕСКЕРТУ!!!', 'btn_1')], 
             [Markup.button.callback('2. Тегіс жерге жатқызу','btn_2')],
-            [Markup.button.callback('3. Оң қырымен жатқызу', 'btn_3')], 
+            [Markup.button.callback('3. Бір қырымен жатқызу', 'btn_3')], 
             [Markup.button.callback('4. Басына жұмсақ зат қою','btn_4')],
             [Markup.button.callback('5. Жедел жәрдем шақыру','btn_5')]
         ]
