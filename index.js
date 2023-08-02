@@ -24,10 +24,10 @@ bot.command('firstaids', async (ctx) => {
     await ctx.replyWithHTML('<b>Талма кезіндегі АЛҒАШҚЫ дәрігерге дейінгі медициналық көмек төменде рет-ретімен көрсетілген. Толығырақ танысу үшін батырмаларды басыңыз</b>', Markup.inlineKeyboard(
         [
             [Markup.button.callback('1. ЕСКЕРТУ!!!', 'btn_1')], 
-            [Markup.button.callback('2. Тегіс жерге жатқызу','btn_2')],
-            [Markup.button.callback('3. Бір қырымен жатқызу', 'btn_3')], 
-            [Markup.button.callback('4. Басына жұмсақ зат қою','btn_4')],
-            [Markup.button.callback('5. Жедел жәрдем шақыру','btn_5')]
+            [Markup.button.callback('2. ...','btn_2')],
+            [Markup.button.callback('3. ...', 'btn_3')], 
+            [Markup.button.callback('4. ...','btn_4')],
+            [Markup.button.callback('5. ...','btn_5')]
         ]
     ))
     } catch(e) {
